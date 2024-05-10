@@ -1,0 +1,128 @@
+
+.header{
+    display: grid;
+    background: url("./yard.avif");
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #189a4c ;
+}
+.bgCover{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #22222272;
+    z-index: 1;
+}
+.info{
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid: 2rem;
+    z-index: 2;
+}
+
+.logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+}
+
+.navegation{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 300ms;
+}
+
+a:hover{
+    color: #FFAED9;
+    font-size: 1.3rem;
+    transition: 300ms;
+}
+
+.body{
+    gap: 2rem;
+    padding: 5rem;
+    padding-top: 0;
+}
+.crd{
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.crd-img{
+    width: 75%;
+}
+.crd-info{
+    font-size: 1.5rem;
+}
+.crd-img img{
+    width: 100%;
+}
+.crd-title{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #189a4c ;
+}
+
+.crd-button{
+    text-decoration: none;
+    background-color: #00AEFE;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: #b8b8b8;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    font-size: 10px;
+    
+}
+.footer a{
+    font-size: 10px;
+}
+
+.bd-gallery-images{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.ft-sotial-media{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+
