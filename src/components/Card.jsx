@@ -1,3 +1,6 @@
+import "./Card.css"
+
+
 export function Card({ title, info, img, button }) {
   return (
     <div className="crd">

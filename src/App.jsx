@@ -1,38 +1,16 @@
 import "./App.css";
-import ImageGallery from "react-image-gallery";
+
 import "react-image-gallery/styles/css/image-gallery.css"
-import { Card } from "./Card.jsx";
+import { Card } from "./components/Card.jsx";
+import { Header } from "./components/Header.jsx";
+import { Gallery } from "./components/Gallery.jsx";
 
 export function App() {
-  const images =[
-    {
-      original:"./image1.jpg",
-    },
-    {
-      original:"./image2.jpg",
-    },
-    {
-      original:"./image3.jpg",
-    }
-  ]
+  
 
   return (
     <>
-      <article className="header">
-        <div className="bgCover"></div>
-        <div className="info">
-          <div className="logo">
-            <img src="./logo.avif" alt="Logo de Asociacion ASMEECV" />
-          </div>
-          <div className="navegation">
-            <a href="">Inicio</a>
-            <a href="">Productos</a>
-            <a href="">Nosotros</a>
-            <a href="">Asociados</a>
-            <a href="">Contacto</a>
-          </div>
-        </div>
-      </article>
+      <Header />
       <article className="body">
         <Card
           title="Nuestra Misión"
@@ -41,20 +19,7 @@ export function App() {
           img="./asmeevc.png"
           button="UNIRME"
         />
-
-        <div className="bd-gallery-images">
-          <h2 className="bd-gallery-title">Explora Nuestro Mundo</h2>
-          <div className="bd-gallery-carrusel">
-            <ImageGallery 
-              items={images}
-              showFullscreenButton={false}
-              showPlayButton={true}
-              showThumbnails={false}
-              showNav={false}
-              showBullets={true}
-            />
-          </div>
-        </div>
+        <Gallery />
       </article>
       <article className="footer">
         <div className="ft-make-by">

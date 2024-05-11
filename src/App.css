@@ -1,104 +1,13 @@
 
-.header{
-    display: grid;
-    background: url("./yard.avif");
-    background-size: cover;
-    height: 100px;
-    background-position: center;
-}
 h2{
     font-size: 2.5rem;
     text-align: center;
     color: #189a4c ;
 }
-.bgCover{
-    position: absolute;
-    height: 100px;
-    width: 100%;
-    background-color: #22222272;
-    z-index: 1;
-}
-.info{
-
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid: 2rem;
-    z-index: 2;
-}
-
-.logo{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.logo img{
-    width: 70px;
-}
-
-.navegation{
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(5, 3fr);
-    align-items: center;
-    justify-items: center;
-}
-a{ 
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: 300ms;
-}
-
-a:hover{
-    color: #FFAED9;
-    font-size: 1.3rem;
-    transition: 300ms;
-}
-
 .body{
     padding: 5rem;
     padding-top: 0;
 }
-.crd{
-    margin-top: 3rem;
-    border-radius: 10px;
-    padding: 2rem;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-}
-.crd-img{
-    width: 75%;
-    margin: auto;
-}
-.crd-info{
-    font-size: 1.5rem;
-}
-.crd-img img{
-    width: 100%;
-}
-.crd-title{
-    margin: 0;
-    font-size: 5rem;
-    text-align: center;
-    color: #189a4c ;
-}
-
-.crd-button{
-    text-decoration: none;
-    background-color: #00AEFE;
-    border: none;
-    border-radius: 2px;
-    padding: 10px;
-    width: 50%;
-    color: #fff;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .footer{
     background-color: #b8b8b8;
     padding: 2rem;
@@ -107,37 +16,16 @@ a:hover{
     align-items: center;
     justify-items: center;
     font-size: 10px;
-    
 }
 .footer a{
     font-size: 10px;
 }
-
-.bd-gallery-images{
-    width: 60%;
-    margin: auto;
-    margin-top: 3rem;
-}
-
 .ft-sotial-media{
     display: grid;
     grid-template-columns: repeat(3, 100px);
 }
-.bd-gallery-title{
-    font-size: 5rem;
-    line-height: 4rem;
-}
-
 @media screen and (max-width: 600px) {
-    .header{
-        position: relative;
-    }
-    .navegation{
-        display: none;
-    }
-    .bgCover{
-        display: none;
-    }
+    
     .ft-sotial-media{
         display: none;
     }
@@ -146,45 +34,7 @@ a:hover{
         padding: 0px;
         margin-top: 2rem;
     }
-    .crd{
-        padding:0%;
-        margin: 1rem;
-        margin: 0;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-        width: 100%;
-    }
-    .crd-title{
-        margin: 0;
-        font-size: 50px;
-        padding: 1rem;
-        line-height: 40px;
-    }
-    .crd-info{
-        font-size: 18px;
-        padding: 2rem;
-        padding-bottom: 0;
-        padding-top: 0;
-        text-align: center;
-    }
-    .crd-button{
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    .bd-gallery-images{
-        margin: 0;
-        width: 100%;
-    }
-    .bd-gallery-title{
-        padding: 10px;
-        padding-bottom: 0px;
-        font-size: 40px;
-        line-height: 40px;
-    }
-    .bd-gallery-carrusel{
-        margin-bottom: 20px;
-    }
+    
 }
 
 

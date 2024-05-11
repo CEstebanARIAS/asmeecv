@@ -1,0 +1,25 @@
+.bd-gallery-images{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.bd-gallery-title{
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .bd-gallery-images{
+        margin: 0;
+        width: 100%;
+    }
+    .bd-gallery-title{
+        padding: 10px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bd-gallery-carrusel{
+        margin-bottom: 20px;
+    }
+}
