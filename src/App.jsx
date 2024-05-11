@@ -36,21 +36,24 @@ export function App() {
       <article className="body">
         <Card
           title="Nuestra Misión"
-          info="Fomentar el emprendimiento local, preservar nuestras tradiciones culturales y promover la conservación del entorno natural de Viracachá. A través de nuestras actividades multiactivas, buscamos generar oportunidades económicas para nuestros agricultores, artesanos y emprendedores, al tiempo que ofrecemos a los visitantes experiencias auténticas y memorables en contacto con la naturaleza y la cultura local."
+          info="Fomentar el emprendimiento local, preservar nuestras tradiciones culturales y promover la conservación del entorno natural de Viracachá.     
+          A través de nuestras actividades multiactivas, buscamos generar oportunidades económicas para nuestros agricultores, artesanos y emprendedores, al tiempo que ofrecemos a los visitantes experiencias auténticas y memorables en contacto con la naturaleza y la cultura local."
           img="./asmeevc.png"
           button="UNIRME"
         />
 
         <div className="bd-gallery-images">
-          <h2>Explora Nuestro Mundo</h2>
-          <ImageGallery 
-            items={images}
-            showFullscreenButton={false}
-            showPlayButton={true}
-            showThumbnails={false}
-            showNav={false}
-            showBullets={true}
-          />
+          <h2 className="bd-gallery-title">Explora Nuestro Mundo</h2>
+          <div className="bd-gallery-carrusel">
+            <ImageGallery 
+              items={images}
+              showFullscreenButton={false}
+              showPlayButton={true}
+              showThumbnails={false}
+              showNav={false}
+              showBullets={true}
+            />
+          </div>
         </div>
       </article>
       <article className="footer">

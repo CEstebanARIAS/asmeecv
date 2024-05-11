@@ -39,7 +39,6 @@ h2{
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(5, 3fr);
-    gap: 20px;
     align-items: center;
     justify-items: center;
 }
@@ -57,7 +56,6 @@ a:hover{
 }
 
 .body{
-    gap: 2rem;
     padding: 5rem;
     padding-top: 0;
 }
@@ -65,13 +63,13 @@ a:hover{
     margin-top: 3rem;
     border-radius: 10px;
     padding: 2rem;
-    gap: 1rem;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
 }
 .crd-img{
     width: 75%;
+    margin: auto;
 }
 .crd-info{
     font-size: 1.5rem;
@@ -80,7 +78,8 @@ a:hover{
     width: 100%;
 }
 .crd-title{
-    font-size: 2.5rem;
+    margin: 0;
+    font-size: 5rem;
     text-align: center;
     color: #189a4c ;
 }
@@ -123,6 +122,69 @@ a:hover{
 .ft-sotial-media{
     display: grid;
     grid-template-columns: repeat(3, 100px);
+}
+.bd-gallery-title{
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+@media screen and (max-width: 360px) {
+    .header{
+        position: relative;
+    }
+    .navegation{
+        display: none;
+    }
+    .bgCover{
+        display: none;
+    }
+    .ft-sotial-media{
+        display: none;
+    }
+    .body{
+        margin: 0;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+    .crd{
+        padding:0%;
+        margin: 1rem;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        width: 100%;
+    }
+    .crd-title{
+        margin: 0;
+        font-size: 50px;
+        padding: 1rem;
+        line-height: 40px;
+    }
+    .crd-info{
+        font-size: 18px;
+        padding: 2rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .crd-button{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .bd-gallery-images{
+        margin: 0;
+        width: 100%;
+    }
+    .bd-gallery-title{
+        padding: 10px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bd-gallery-carrusel{
+        margin-bottom: 20px;
+    }
 }
 
 
