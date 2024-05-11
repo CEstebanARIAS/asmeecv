@@ -1,7 +1,7 @@
 
 .header{
     display: grid;
-    background: url("./header.jpg");
+    background-image: url("./header.jpg");
     background-size: cover;
     height: 100px;
     background-position: center;
