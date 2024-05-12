@@ -2,7 +2,7 @@ import "./App.css";
 
 import "react-image-gallery/styles/css/image-gallery.css"
 import { Card } from "./components/Card.jsx";
-import { Header } from "./components/Header.jsx";
+import { Head } from "./components/Head.jsx";
 import { Gallery } from "./components/Gallery.jsx";
 
 export function App() {
@@ -10,7 +10,7 @@ export function App() {
 
   return (
     <>
-      <Header />
+      <Head />
       <article className="body">
         <Card
           title="Nuestra Misión"
