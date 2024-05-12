@@ -35,13 +35,14 @@ export function Header() {
       </button>
       <ul className="hdr-mbl-sotial">
         <li>
-          <a href="">Facebook</a>
+          <a href="https://www.facebook.com/asociacionmultiactiva">Facebook</a>
         </li>
         <li>
           <a href="">Instagram</a>
+          
         </li>
         <li>
-          <a href="">Whatsapp</a>
+          <a href="https://w.app/eyY7Qi">Whatsapp</a>
         </li>
       </ul>
       <div className="hdr-mobile.visible">
