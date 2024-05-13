@@ -1,16 +1,17 @@
 
 .header{
     display: grid;
-    background-image: url("./header.jpg");
-    background-size: cover;
+    background-color: #fe9fd1;
     height: 100px;
     background-position: center;
+    border-bottom: solid 1px;
+    border-color: #FB62BE;
 }
 .Cover{
     position: absolute;
     height: 100px;
     width: 100%;
-    background-color: #222222da;
+    
     z-index: 1;
 }
 .menu{
@@ -20,6 +21,9 @@
 }
 .menu a{
     font-size: 1.5rem;
+}
+.menu a:hover{
+    font-size: 1.7rem;
 }
 .Boton{
     display: none;
@@ -35,26 +39,40 @@
 @media screen and (max-width: 400px) {
     .menu-sotial a{
         font-size: 12px;
+        padding: 0;
+        transition: 0.3s;
+    }
+    .menu-sotial a:hover{
+        padding: 1rem;
     }
 }
 @media screen and (max-width: 600px) {
 
     .menu-items{
         display: none;
-        transition: 300ms;
     }
 
     .menu-items.activate{
+        transition: 0.3s;
         margin-top: 0px;
         height: 100vmax;
-        width: 100vmax;
+        width: 84vmax;
         box-shadow: 0 0 0 100vmax rgb(0, 0, 0, 0.5);
         padding: 2rem;
         padding-top: 110px;
         display: flex;
         flex-direction: column;
         position: absolute;
-        background-color: #222;
+        background-color:rgb(202, 94, 179);
+        a{
+            transition: 300ms;
+            display: unset;
+        }
+        a:hover{
+            color: rgb(12, 54, 26);
+            font-size: 2rem;
+            transition: 300ms;
+        }
     }
     
     .Boton{
@@ -68,10 +86,20 @@
         display: flex;
         gap: 1rem;
         align-items: center;
-        margin-left: 70px;        
+        margin-left: 70px;
+            
     }
-    .menu-sotial a{
-        font-size: 18px;
+    .menu-sotial img{
+        transform: scale(1.7);
+        padding: 1rem;
+        transition: 0.3s;
+    }
+
+    .menu-sotial img:hover{
+        transform: scale(2);
+        transition: 0.3s;
+        background-color: #f66db6;
+        border-radius: 2px;
     }
     .menu{
         gap: 1rem;
@@ -85,9 +113,14 @@ li{
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding: 1rem;  
+    font-family: Verdana;
 }
 a:hover{
-    color: rgb(250, 151, 229);
+    color: rgb(12, 54, 26);
+    font-size: 17px;
+    transition: 0.3s;
 }
 

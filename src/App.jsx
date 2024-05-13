@@ -1,24 +1,26 @@
 import "./App.css";
 
-import "react-image-gallery/styles/css/image-gallery.css"
+import "react-image-gallery/styles/css/image-gallery.css";
 import { Card } from "./components/Card.jsx";
 import { Head } from "./components/Head.jsx";
 import { Gallery } from "./components/Gallery.jsx";
 
 export function App() {
-  
-
   return (
     <>
       <Head />
       <article className="body">
-        <Card
-          title="Nuestra Misión"
-          info="Fomentar el emprendimiento local, preservar nuestras tradiciones culturales y promover la conservación del entorno natural de Viracachá.     
-          A través de nuestras actividades multiactivas, buscamos generar oportunidades económicas para nuestros agricultores, artesanos y emprendedores, al tiempo que ofrecemos a los visitantes experiencias auténticas y memorables en contacto con la naturaleza y la cultura local."
-          img="./asmeevc.png"
-          button="UNIRME"
-        />
+        <div className="info-asoc">
+          <div className="crd-img">
+            <img className="" src="./asmeevc.png" alt="imagen" />
+          </div>
+          <Card
+            title="Nuestra Misión"
+            info="Fomentar el emprendimiento local, preservar nuestras tradiciones culturales y promover la conservación del entorno natural de Viracachá.     
+            A través de nuestras actividades multiactivas, buscamos generar oportunidades económicas para nuestros agricultores, artesanos y emprendedores, al tiempo que ofrecemos a los visitantes experiencias auténticas y memorables en contacto con la naturaleza y la cultura local."
+            button="UNIRME"
+          />
+        </div>
         <Gallery />
       </article>
       <article className="footer">
@@ -34,7 +36,10 @@ export function App() {
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z" />
           </svg>{" "}
-          by <a href="https://www.linkedin.com/in/carlosariasdev">carlosariasdev</a>
+          by{" "}
+          <a href="https://www.linkedin.com/in/carlosariasdev">
+            carlosariasdev
+          </a>
         </div>
         <div className="ft-sotial-media">
           <a href="https://www.facebook.com/asociacionmultiactiva">

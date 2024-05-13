@@ -4,6 +4,17 @@ h2{
     text-align: center;
     color: #189a4c ;
 }
+.crd-img img{
+    width: 100%;
+}
+.crd-img{
+    width: 500px;
+    margin: auto;
+}
+.info-asoc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .body{
     padding: 5rem;
     padding-top: 0;
@@ -25,7 +36,14 @@ h2{
     grid-template-columns: repeat(3, 100px);
 }
 @media screen and (max-width: 600px) {
-    
+    .crd-img{
+        width: 300px;
+        margin: auto;
+    }
+    .info-asoc{
+        display: flex;
+        flex-direction: column;
+    }
     .ft-sotial-media{
         display: none;
     }

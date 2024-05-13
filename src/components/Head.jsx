@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import ".//Head.css";
-import { Button } from "./Button";
+import { ButtonMenu } from "./ButtonMenu";
 
 export function Head() {
 
@@ -16,14 +16,14 @@ export function Head() {
         <ul className="menu-sotial">
           <li>
             <a href="https://www.facebook.com/asociacionmultiactiva">
-              Facebook
+              <img src="./facebook.svg" alt="" />
             </a>
           </li>
           <li>
-            <a href="">Instagram</a>
+            <a href="https://w.app/eyY7Qi"><img src="./whatsapp.svg" alt="" /></a>
           </li>
           <li>
-            <a href="https://w.app/eyY7Qi">Whatsapp</a>
+            <a href=""><img src="./email.svg" alt="" /></a>
           </li>
         </ul>
         <ul className={`menu-items ${clicked ? 'activate' : ''}`}>
@@ -45,7 +45,7 @@ export function Head() {
         </ul>
       </div>
       <div className="Boton">
-        <Button clicked={clicked} handleClick={handleClick}/>
+        <ButtonMenu clicked={clicked} handleClick={handleClick}/>
       </div>
     </div>
   );

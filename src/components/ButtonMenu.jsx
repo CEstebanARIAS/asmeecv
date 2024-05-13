@@ -1,6 +1,6 @@
-import "./Button.css";
+import "./ButtonMenu.css";
 
-export function Button(props) {
+export function ButtonMenu(props) {
   return (
     <div className="three col">
       <div onClick={props.handleClick} className={`hamburger ${props.clicked ? 'is-active': ''}`} id="hamburger-6">
