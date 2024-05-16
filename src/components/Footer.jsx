@@ -17,11 +17,11 @@ export function Footer(){
           <a href="https://www.facebook.com/asociacionmultiactiva">
             <img src="./facebook.svg" alt="facebook" />
           </a>
-          <a href="asociacionmultiactiva2024@gmail.com ">
-            <img src="./email.svg" alt="email" />
-          </a>
           <a href="">
             <img src="./whatsapp.svg" alt="whatsapp" />
+          </a>
+          <a href="asociacionmultiactiva2024@gmail.com ">
+            <img src="./email.svg" alt="email" />
           </a>
         </div>
         <div className="ft-terms-conditions">

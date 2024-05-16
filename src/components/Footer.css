@@ -14,9 +14,19 @@
     font-size: 15px;
     padding: 0;
 }
+.footer a:hover{
+    font-size: 17px;
+}
 .ft-sotial-media{
     display: grid;
     grid-template-columns: repeat(3, 100px);
+    gap: 1rem;
+    transform: scale(1.2);
+    justify-items: center;
+}
+
+.ft-sotial-media a:hover{
+    transform: scale(1.5);
 }
 
 @media screen and (max-width: 769px) {
