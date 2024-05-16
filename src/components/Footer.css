@@ -28,13 +28,8 @@
         font-size: 9px;
         padding-block: 2rem; 
     }
-    .footer {
-          
-    }
     .footer a{
-        font-size: 9px;   
-    }
-    .ft-make-by a{
+        font-size: 9px;
         margin: 0;
     }
 }
