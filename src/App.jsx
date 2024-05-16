@@ -39,9 +39,7 @@ export function App() {
               />
               <Card
                 title="Unete"
-                info="En la Asociación Multiactiva de Emprendimiento en Ecoturismo y Economía Campesina de Viracachá, estamos comprometidos con el desarrollo sostenible de nuestra región y el bienestar de nuestras comunidades.
-              ¡Únete a nosotros en esta emocionante aventura para descubrir la belleza de Viracachá, apoyar a nuestros emprendedores locales y preservar nuestra herencia cultural y natural para las generaciones futuras!
-              "
+                info="En la Asociación Multiactiva en Emprendimiento de Ecoturismo y Economía Campesina de Viracachá, estamos comprometidos con el desarrollo sostenible de nuestra región y el bienestar de nuestras comunidades. ¡Únete a nosotros en esta emocionante aventura para descubrir la belleza de Viracachá, apoyar a nuestros emprendedores locales y preservar nuestra herencia cultural y natural para las generaciones futuras!"
               />
             </Slider>
           </div>
