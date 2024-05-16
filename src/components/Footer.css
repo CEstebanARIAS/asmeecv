@@ -2,16 +2,16 @@
 .footer{
     background-color: #fe9fd1;
     border-top-color: #ab236b;
-    padding-block: 2rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-size: 10px;
+    font-size: 15px;
     align-items: center;
     justify-items: center;
     color: white;
 }
 .footer a{
-    font-size: 10px;
+    font-size: 15px;
     padding: 0;
 }
 .ft-sotial-media{
@@ -25,9 +25,11 @@
     }
     .footer{
         grid-template-columns: repeat(2, 1fr);
+        font-size: 9px;
+        padding-block: 2rem; 
     }
     .footer {
-        font-size: 9px;   
+          
     }
     .footer a{
         font-size: 9px;   
