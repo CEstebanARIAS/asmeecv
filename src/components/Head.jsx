@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import ".//Head.css";
+import "./css/Head.css";
 import { ButtonMenu } from "./ButtonMenu";
 
 export function Head() {
@@ -15,32 +15,32 @@ export function Head() {
       <div className="menu">
         <ul className="menu-sotial">
           <li>
-            <a href="https://www.facebook.com/asociacionmultiactiva">
+            <a href="https://www.facebook.com/asociacionmultiactiva" className="linkHeader">
               <img src="./facebook.svg" alt="" />
             </a>
           </li>
           <li>
-            <a href="https://w.app/eyY7Qi"><img src="./whatsapp.svg" alt="" /></a>
+            <a href="https://w.app/eyY7Qi" className="linkHeader"><img src="./whatsapp.svg" alt="" /></a>
           </li>
           <li>
-            <a href=""><img src="./email.svg" alt="" /></a>
+            <a href="" className="linkHeader"><img src="./email.svg" alt="" /></a>
           </li>
         </ul>
         <ul className={`menu-items ${clicked ? 'activate' : ''}`}>
           <li>
-            <a href="/">Inicio</a>
+            <a href="/" className="linkHeader">Inicio</a>
           </li>
           <li>
-            <a href="/">Productos</a>
+            <a href="/" className="linkHeader">Productos</a>
           </li>
           <li>
-            <a href="/">Nosotros</a>
+            <a href="/" className="linkHeader">Nosotros</a>
           </li>
           <li>
-            <a href="/">Asociados</a>
+            <a href="/" className="linkHeader">Asociados</a>
           </li>
           <li>
-            <a href="/">Contacto</a>
+            <a href="/" className="linkHeader">Contacto</a>
           </li>
         </ul>
       </div>
