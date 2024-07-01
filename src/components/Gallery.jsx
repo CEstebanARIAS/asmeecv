@@ -1,5 +1,5 @@
 import ImageGallery from "react-image-gallery";
-import "./Gallery.css"
+import "./css/Gallery.css"
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
@@ -33,7 +33,6 @@ export function Gallery(){
 
     return(
         <div className="bd-gallery-images">
-          <h2 className="bd-gallery-title">Explora Nuestro Mundo</h2>
           <div className="bd-gallery-carrusel">
             <ImageGallery 
               items={images}
