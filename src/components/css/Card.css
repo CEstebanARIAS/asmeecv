@@ -1,0 +1,49 @@
+.crd{
+    border-radius: 10px;
+    padding: 2rem;
+    padding-bottom: 0;
+    display: block;
+    justify-items: center;  
+    
+}
+
+.crd-info{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    
+}
+
+.crd-title{
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #189a4c ;
+    line-height: 65px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .crd{
+        padding:0%;
+        margin: 1rem;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        width: 100%;
+    }
+    .crd-title{
+        margin: 0;
+        font-size: 40px;
+        padding: 1rem;
+        line-height: 40px;
+    }
+    .crd-info{
+        font-size: 18px;
+        padding: 2rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        
+        margin-bottom: 1rem;
+    }
+}
