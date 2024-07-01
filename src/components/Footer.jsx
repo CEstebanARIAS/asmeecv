@@ -1,4 +1,4 @@
-import "./Footer.css"
+import "./css/Footer.css"
 
 
 export function Footer(){
@@ -9,15 +9,15 @@ export function Footer(){
           Site made {" "}
          
           by{" "}
-          <a href="https://www.linkedin.com/in/carlosariasdev">
+          <a href="https://www.linkedin.com/in/carlosariasdev" className="linkHeader">
             carlosariasdev
           </a>
         </div>
         <div className="ft-sotial-media">
-          <a href="https://www.facebook.com/asociacionmultiactiva">
+          <a href="https://www.facebook.com/asociacionmultiactiva" className="linkHeader">
             <img src="./facebook.svg" alt="facebook" />
           </a>
-          <a href="">
+          <a href="" className="linkHeader">
             <img src="./whatsapp.svg" alt="whatsapp" />
           </a>
           <a href="asociacionmultiactiva2024@gmail.com ">
@@ -27,11 +27,11 @@ export function Footer(){
         <div className="ft-terms-conditions">
             Copyright © 2024
             {" | "}
-          <a href="#">Terms</a>
+          <a href="#" className="linkHeader">Terms</a>
             {" | "}
-          <a href="#">Conditions</a>
+          <a href="#" className="linkHeader">Conditions</a>
           {" | "}
-          <a href="#">Legality</a>
+          <a href="#" className="linkHeader">Legality</a>
         </div>
       </div>
 
