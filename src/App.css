@@ -1,63 +1,130 @@
-
-h2{
-    font-size: 2.5rem;
+.firstTitle {
+    margin-bottom: 2rem;
+    font-size: 4rem;
     text-align: center;
-    color: #189a4c ;
+    color: #189a4c;
+    line-height: 55px;
 }
 
-.crd-img img{
+.crd-img img {
     width: 100%;
-    
 }
-.crd-img{
+
+.crd-img {
     width: 500px;
     margin: auto;
     grid-row: 1/3;
 }
-.info-asoc{
-    margin-top: 3rem;
+
+.info-asoc {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-block: 3rem;
 }
 
-.info{
+.ButtonUnirme {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.info {
     display: block;
-    margin: auto;
     width: 700px;
 }
-.body{
+
+.body {
     padding: 5rem;
     padding-top: 0;
 }
 
+.SeccionNoticias {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.CardNews {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.CardNews:hover {
+    transform: scale(1.05);
+}
+
+.CardNews img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.CardBody {
+    padding: 20px;
+    
+}
+
+.CardNews h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #189a4c;
+    text-align: center;
+}
+
+.CardNews p {
+    font-size: 1.1em;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.BotonLeerMas {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 769px) {
-    .crd-img{
+    .crd-img {
         width: 300px;
         margin: auto;
     }
     
-    .info-asoc{
+    .info-asoc {
         display: flex;
         flex-direction: column;
     }
-    
-    .body{
+
+    .body {
         margin: 0;
         padding: 0px;
         margin-top: 2rem;
     }
-    .info{
+    
+    .info {
         display: flex;
         flex-direction: column;
         width: 500px;
     }
-    
+
+    .SeccionNoticias {
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 @media screen and (max-width: 440px) {
-    .info{
+    .info {
         display: flex;
         flex-direction: column;
         width: 350px;
     }
 }
-
-
