@@ -1,7 +1,7 @@
-import "./Card.css"
+import "./css/Card.css"
 
 
-export function Card({ title, info}) {
+export function Info({ title, info}) {
   return (
     <div className="crd">
       <div>

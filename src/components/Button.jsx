@@ -1,4 +1,4 @@
-import "./Button.css"
+import "./css/Button.css"
 
 
 export function Button({text}){
