@@ -10,6 +10,7 @@ import { Button } from "./components/Button.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { ButtonModal } from "./components/Modal.jsx";
 import { NewsCard } from "./components/NewsCard.jsx";
+import { Documents } from "./components/Documents.jsx";
 
 export function App() {
   var settings = {
@@ -53,7 +54,6 @@ export function App() {
             </div>
           </div>
         </div>
-        
         <h2 className="firstTitle">Conoce Las Últimas Noticias</h2>
         <div className="SeccionNoticias">
           <NewsCard
@@ -66,6 +66,55 @@ export function App() {
         </div>
         <h2 className="firstTitle">Explora Nuestro Mundo</h2>
         <Gallery />
+        <h2 className="firstTitle">Documetación</h2>
+        <div className="SeccionDocumentos">
+          <Documents 
+            title="Acta N° 011"
+            info="Acta de autorizacion esal"
+            link="https://drive.google.com/file/d/1SZuRHZIr-bHm7Czl4YHEKmXKfDXUOJq2/view?usp=drive_link"
+          />
+          <Documents 
+            title="Acta de constitucion N° 001"
+            info="Asociacion multiactiva de emprenderismo ecoturistico y economia campesina de viracacha (ASMEECV)"
+            link="https://drive.google.com/file/d/10LyozierQdkyJWdVzlgJ8xvdl0Z7OJGJ/view?usp=sharing"
+          />
+          <Documents 
+            title="Certificado de existencia"
+            info="Camara de comercio de tunja, Certificado de existencia y representacion legal"
+            link="https://drive.google.com/file/d/1CTbB3eNsNjuFGispd8eijFeQcSFlwQpN/view?usp=sharing"
+          />
+          <Documents 
+            title="Certificado de cumplimiento"
+            info="Certificación de cumplimiento a todos los requisitos exigidos en el numeroal 13 del parrafo 2 del articulo 364-5"
+            link="https://drive.google.com/file/d/1oFjS7p3HBugP7fiRcGJ9mYpRLJj1AtGs/view?usp=sharing"
+          />
+          <Documents 
+            title="Estados financieros a 31 de Diciembre"
+            info="Estados financieros a partir de la creacion de la asocicacion hasta el 31 de diciembre del año 2024"
+            link="https://drive.google.com/file/d/1gmFuI2mY1YrT6wwv-D8TVp6UfW4NQqZ5/view?usp=sharing"
+          />
+          <Documents 
+            title="Estautos Sociales"
+            info="Nombre, Naturaleza, Domicilio y Duración"
+            link="https://drive.google.com/file/d/1OP5or6AS6kwTyie-N29W0aS6gP-H7I1Q/view?usp=sharing"
+          />
+          <Documents 
+            title="Informe de Gestión"
+            info="Informe de gestion de representante legal durante el periodo 25 de abril a 10 de diciembre de 2024"
+            link="https://drive.google.com/file/d/1Vzb0bVOu5wPHQm8wFm-NmoO-lmhyGx3H/view?usp=sharing"
+          />
+          <Documents 
+            title="Certificado de Exclusion"
+            info="Certifica que ningun miembro de la junta directiva, fundadores y representante legal de ASMEECV han incurrido en las causales de exclusion del articulo 364-5"
+            link="https://drive.google.com/file/d/1Yu04ZC_NKyPi6X1YIAS4--iZ-0zZNsJi/view?usp=sharing"
+          />
+          <Documents 
+            title="Certificado de Pagos Salariales"
+            info="Certifica que ninguno de los asociados de ASMEECV devengan pagos salariales"
+            link="https://drive.google.com/file/d/1F5T8DwT6GAEFCYlO8ByTLgGj2tlH5dWx/view?usp=sharing"
+          />
+          
+        </div>
       </article>
       <Footer />
     </>

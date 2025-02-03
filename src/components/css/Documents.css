@@ -1,0 +1,17 @@
+h2{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #189a4c;
+    
+}
+.document{
+    text-align: center;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #0a843b;
+}
+p{
+    color: #666;
+}

@@ -45,8 +45,6 @@
     max-width: 1200px;
     flex-wrap: wrap;
 }
-
-
 .CardNews {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -91,6 +89,12 @@
 .BotonLeerMas {
     text-align: center;
     margin-bottom: 20px;
+}
+.SeccionDocumentos{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);   
+    justify-items: center;
 }
 
 @media screen and (max-width: 769px) {
