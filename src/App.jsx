@@ -113,7 +113,16 @@ export function App() {
             info="Certifica que ninguno de los asociados de ASMEECV devengan pagos salariales"
             link="https://drive.google.com/file/d/1F5T8DwT6GAEFCYlO8ByTLgGj2tlH5dWx/view?usp=sharing"
           />
-          
+          <Documents 
+            title="Recibo Administrativo"
+            info="Presentación de informació por Envio de Archivos"
+            link="https://drive.google.com/file/d/1JL1a6_AqHJRHOMNHWV0td59VaTnXIWTD/view?usp=sharing"
+          />
+          <Documents 
+            title="Recibo Fundadores"
+            info="Presentación de informació por Envio de Archivos"
+            link="https://drive.google.com/file/d/1QCTybCdWUXQ8StuN7FkWByw5fafOwOtI/view?usp=sharing"
+          />
         </div>
       </article>
       <Footer />
